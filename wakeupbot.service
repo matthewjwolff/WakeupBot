@@ -1,0 +1,9 @@
+[Unit]
+Description=WakeupBot
+
+[Service]
+Type=simple
+ExecStart=/bin/node /home/mjw/groupme/srv.js
+
+[Install]
+WantedBy=multi-user.target
